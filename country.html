@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Country Info</title>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="search.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
+</head>
+
+<body>
+
+    <div class="container bg-info px-5 pt-4 pb-4 mt-4 border shadow ">
+
+        <header class="row text-white mb-3 text-center ">
+            <div class="col">
+                <h3 id="mainTitle">Country Info 📌</h3>
+            </div>
+        </header>
+
+        <!-- INPUT -->
+        <section class="row">
+            <div class="col-12 p-3 border shadow text-center">
+                <img id="img" src="w2.png">
+                <form>
+                    <input type="text" id="country" class="p-2" placeholder="Country">
+
+
+                    <button class="btn btn-success rounded-1 px-5">
+                        <b>Reset</b>
+                    </button>
+                    <!--  <input class="btn btn-primary" type="reset" value="Reset">-->
+                    <!-- "btn btn-outline-success"-->
+                </form>
+            </div>
+        </section>
+
+        <!-- OUTPUT -->
+        <section id="output" class="row bg-white mt-3">
+            <div class="col-12 p-3">
+                <table class="border table table-hover">
+
+                    <thead>
+                        <tr>
+                            <th class="border px-2 ">Country Name</th>
+                            <th class="border px-3">Capital</th>
+                            <th id="flag">Flag</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="dataTable"></tbody>
+
+                </table>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>

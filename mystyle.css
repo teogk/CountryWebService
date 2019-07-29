@@ -1,0 +1,22 @@
+#output {
+   opacity: 0;
+}
+
+tbody tr:first-child {
+    background-color: lightgray;
+}
+
+#flag {
+    width: 170px;
+    text-align: center;
+}
+
+#img {
+    width: 50%;
+}
+
+#dataTable {
+    font-size: 22px;
+    line-height: 90px;
+    font-family: sans-serif;
+}
